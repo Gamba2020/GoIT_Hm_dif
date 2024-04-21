@@ -7,4 +7,3 @@ def get_numbers_ticket(mn, mx, quantity):
     while len(arr_uniq) != quantity:
         arr_uniq.add(randint(mn,mx))
     return sorted(list(arr_uniq))
-print(get_numbers_ticket(2,6,5))
